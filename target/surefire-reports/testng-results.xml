@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-15T18:03:11 IST" name="Suite" finished-at="2025-02-15T18:03:49 IST" duration-ms="37037">
+    <groups>
+      <group name="Purchase">
+        <method signature="EndtoEndJourney.submitorder(java.util.HashMap)[pri:0, instance:shashankframeworkdesigns.Finalframework.EndtoEndJourney@6356695f]" name="submitorder" class="shashankframeworkdesigns.Finalframework.EndtoEndJourney"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-02-15T18:03:11 IST" name="Endtoend" finished-at="2025-02-15T18:03:48 IST" duration-ms="36999">
+      <class name="shashankframeworkdesigns.Finalframework.EndtoEndJourney">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:shashankframeworkdesigns.Finalframework.EndtoEndJourney@6356695f]" started-at="2025-02-15T18:03:12 IST" name="launchapplication" finished-at="2025-02-15T18:03:16 IST" duration-ms="4216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:shashankframeworkdesigns.Finalframework.EndtoEndJourney@6356695f]" started-at="2025-02-15T18:03:16 IST" name="submitorder" data-provider="getData" finished-at="2025-02-15T18:03:31 IST" duration-ms="14747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Virat@18?, email=shashu18@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:shashankframeworkdesigns.Finalframework.EndtoEndJourney@6356695f]" started-at="2025-02-15T18:03:31 IST" name="teardown" finished-at="2025-02-15T18:03:31 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:shashankframeworkdesigns.Finalframework.EndtoEndJourney@6356695f]" started-at="2025-02-15T18:03:31 IST" name="launchapplication" finished-at="2025-02-15T18:03:34 IST" duration-ms="2674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="submitorder(java.util.HashMap)[pri:0, instance:shashankframeworkdesigns.Finalframework.EndtoEndJourney@6356695f]" started-at="2025-02-15T18:03:34 IST" name="submitorder" data-provider="getData" finished-at="2025-02-15T18:03:48 IST" duration-ms="14734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=IPHONE 13 PRO, password=Virat@18,, email=viratk18@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:shashankframeworkdesigns.Finalframework.EndtoEndJourney@6356695f]" started-at="2025-02-15T18:03:48 IST" name="teardown" finished-at="2025-02-15T18:03:48 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- shashankframeworkdesigns.Finalframework.EndtoEndJourney -->
+    </test> <!-- Endtoend -->
+    <test started-at="2025-02-15T18:03:49 IST" name="Errorvalidation" finished-at="2025-02-15T18:03:49 IST" duration-ms="1">
+    </test> <!-- Errorvalidation -->
+  </suite> <!-- Suite -->
+</testng-results>
